@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int a=5,b=4;
+    int c=5,d=10;
+    printf("%d\n",a*b);
+    printf("%d",c*d);
+
+    return 0;
+}
