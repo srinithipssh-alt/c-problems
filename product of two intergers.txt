@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a=4,b=5;
+    int d=10,e=2;
+    int g=1,h=20;
+    scanf("%d %d",&a,&b,&d,&e,&g,&h);
+    printf("%d \n",a*b);
+    printf("%d \n",d*e);
+    printf("%d",g*h);
+
+    return 0;
+} 
