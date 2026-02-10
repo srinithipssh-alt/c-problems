@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int a=9,b=2,c=10,d=3,e=20,f=4;
+    scanf("%d %d",&a,&b,&c,&d,&e,&f);
+    printf("%d %d\n",a/b,a%b);
+    printf("%d %d\n",c/d,c%d);
+    printf("%d %d",e/f,e%f);
+
+    return 0;
+} 
