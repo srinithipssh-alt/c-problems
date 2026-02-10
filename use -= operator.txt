@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a=10,b=5,c=20,d=10,s=5,v=5;
+    a -= b;
+    c -= d;
+    s -= v;
+    printf("%d \n",a);
+    printf("%d\n",c);
+    printf("%d",s);
+
+    return 0;
+} 
