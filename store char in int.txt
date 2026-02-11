@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+    char a='A';
+    int b=a;
+    char c='a';
+    int d=c;
+    printf("%d\n"a,b);
+    printf("%d",c,d);
+    return 0;
+}
