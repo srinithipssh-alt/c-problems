@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("size of char:%d\n",sizeof(char));
+
+    return 0;
+}
