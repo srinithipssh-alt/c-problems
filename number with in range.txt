@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int num,a=10,b=20;
+    scanf("%d",&num);
+    if(num>=a&&num<=b)
+    {
+    printf("number with in range");
+}
+else{
+    printf("number not with in range");
+}
+    return 0;
+}
