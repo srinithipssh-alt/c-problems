@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a=10,b=20;
+scanf("%d",&a,&b);{
+if(a>b){
+    printf("%d is greater",a);
+}
+else if(b>a){
+    printf("%d if greater",b);
+}
+else{
+    printf("both are equal");
+}
+return 0;
+}
+}
