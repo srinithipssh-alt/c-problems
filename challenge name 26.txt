@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{ int i,n;
+int expense,total=0;
+int overspenddays=0;
+scanf("%d ",&n);
+for(i=0;i<n;i++){
+scanf("%d",&expense);
+total+=expense;
+if(expense>1000){
+    overspenddays++;
+}
+}
+printf("total expense:%d\n",total);
+printf("overspenddays:%d",overspenddays);
+return 0;
+}
