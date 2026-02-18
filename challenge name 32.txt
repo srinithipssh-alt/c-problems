@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{ int n,rain,total=0,heavydays=0,i;
+scanf("%d",&n);
+for(i=0;i<n;i++){
+    scanf("%d",&rain);
+    total=total+rain;
+    if(rain>50){
+        heavydays++;
+    }
+}
+printf("total rainfall:%d\n",total);
+printf("heavy rain days:%d",heavydays);
+return 0;
+}
