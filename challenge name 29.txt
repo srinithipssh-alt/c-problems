@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{ int i,salary,absentdays;
+scanf("%d %d",&salary,&absentdays);
+for(i=1;i<=absentdays;i++){
+    salary=salary-100;
+}
+printf("final salary:%d",salary);
+return 0;
+}
