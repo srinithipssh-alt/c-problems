@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{ int i,n,temp,reverse=0;
+scanf("%d ",&n);
+temp=n;
+for(i=n;i>0;i=i/10){
+    reverse=reverse*10+(i%10);
+}
+if(temp==reverse)
+{
+    printf("yes");
+}
+else{
+
+        printf("no");
+}
+return 0;
+}
