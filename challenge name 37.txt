@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{ int i,n,price;
+int highest,highdays=0;
+scanf("%d",&n);
+for(i=0;i<n;i++){
+    scanf("%d",&price);
+    if(i==0){
+        highest=price;
+    }
+    if(price>highest){
+        highest=price;
+    }
+    if(price>100){
+        highdays++;
+    }
+    }
+printf("highest price:d\n",highest);
+printf("high price days:%d",highdays);
+return 0;
+}
