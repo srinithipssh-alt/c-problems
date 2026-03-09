@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+    int R,i,j,k,l,p,C;
+    scanf("%d %d", &R, &C);
+    int a[R][C];
+    for( i=0;i<R;i++)
+        for( j=0;j<C;j++)
+            scanf("%d",&a[i][j]);
+    int maxProduct = a[0][0] * a[1][0];
+    for(i=0;i<R;i++){
+        for( k=i+1;k<R;k++){
+            for(j=0;j<C;j++){
+                for( l=0;l<C;l++){
+                     p = a[i][j] * a[k][l];
+                    if(p > maxProduct)
+                        maxProduct = p;
+                }
+            }
+        }
+    }
+    printf("%d", maxProduct);
+    return 0;
+}
